@@ -1,0 +1,1143 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.page-layout {
+    border:11px solid #6A5B5C;
+    display: flex;
+}
+
+.page-layout .left-page-layout {
+    width: 74%;
+}
+
+.page-layout .left-page-layout .header-info {
+    background-color: #E5E2D4;
+}
+
+
+.page-layout .left-page-layout .header-information {
+    background-color: #E5E2D4;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #2C2528;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.page-layout .left-page-layout .upper-head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.page-layout .left-page-layout .account-information {
+    width: 50%;
+    text-align: left;
+}
+
+.page-layout .left-page-layout .account-information a{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration:none;
+    color: #2C2528;
+    text-transform: uppercase;
+}
+
+.page-layout .left-page-layout .account-information span svg {
+    vertical-align: bottom;
+    width: 16px;
+    height: 17px;
+}
+
+.page-layout .left-page-layout .upper-head .social-media {
+    width:50%;
+    text-align: right;
+}
+
+.page-layout .left-page-layout .social-media a {
+    text-decoration: none;
+}
+
+.page-layout .left-page-layout .social-media span svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.page-layout .left-page-layout .middle-head {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.page-layout .left-page-layout .middle-head a {
+    display: inline-block;
+}
+
+.page-layout .left-page-layout .middle-head img {
+    width: 131px;
+} 
+
+.page-layout .left-page-layout .down-head {
+    margin-top: 25px;
+}
+
+.page-layout .left-page-layout .down-head ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.page-layout .left-page-layout .down-head ul li {
+    text-transform: capitalize;
+    font-family: "Gill Sans Nova", sans-serif;
+    padding: 0 2% 0 2%;
+}
+
+.page-layout .left-page-layout .down-head ul li a {
+    text-decoration: none;
+    color: #2C2528;
+}
+
+.page-layout .left-page-layout .down-head ul li a:hover {
+    color: #5C8018;
+}
+
+.page-layout .left-page-layout .down-head ul li a svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.page-layout .left-page-layout .down-head ul li button {
+    text-decoration: none;
+    color: #2C2528;
+    border: none;
+    background-color: white;
+}
+
+.page-layout .left-page-layout .down-head ul li button:hover {
+    color: #5C8018;
+}
+
+.page-layout .left-page-layout .down-head ul li button svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.page-layout .left-page-layout .wrapper .banner {
+    width: 100%;
+    margin-top: 15px
+}
+
+.page-layout .left-page-layout .wrapper .banner img {
+    width: 100%;
+}
+
+.page-layout .left-page-layout .wrapper .welcome-article h2 {
+    text-align: center;
+    color: #6A5B5C;
+    margin-top: 91px;
+    font-family: "Gill sans nova", sans-serif;
+}
+
+.page-layout .left-page-layout .wrapper .welcome-article p {
+    text-align: center;
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.page-layout .left-page-layout .wrapper          .parent-nav-category {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.page-layout .left-page-layout .wrapper          .parent-nav-category .product-category {
+    text-align: left;
+    font-family: "Gill sans nova", sans-serif;
+    text-transform:capitalize;
+    font-size: 23px;
+    color: #6A5B5C;
+}
+
+.page-layout .left-page-layout .wrapper          .parent-nav-category .nav {
+    text-align: right;
+}
+
+.page-layout .left-page-layout .wrapper          .parent-nav-category .nav a{
+    color: #638522;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: 1px solid #ADBF8B;
+}
+
+.page-layout .left-page-layout .wrapper          .parent-nav-category .nav a:hover {
+    border-color: #8a8a8a;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog {
+    width: 100%;
+    display: flex;
+    border: 1px solid #DFDEDF;
+    margin-top: 32px;
+    height: 355px;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space {
+    width: 25%;
+    border-right: 1px solid #DFDEDF;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog img {
+    width: 100%;
+}
+
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper {
+    position: relative;
+    width: 77%;
+    margin: 0 auto;
+    display: grid;
+    height: 100%;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top: 125px;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing .available {
+    width: fit-content;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 14px;
+    background-color: #7F7F7F;
+    padding: 5px;
+    color: #fff;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing .amount-name-price {
+    width: 100%;
+}
+
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .cart-or-option {
+    background-color: #5C8018;
+    padding: 9px 25px;
+    color: #fff;
+    font-size: 14px;
+    width: fit-content;
+    font-family: "Gill sans nova", sans-serif;
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-property: background;
+    display: inline-block;
+    border: none;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .cart-or-option:hover {
+    background-color: #839E4F;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .review {
+    width: 100%;
+    font-size: 10px;
+    margin-top: 29px;
+    font-family:"Gill sans nova", sans-serif;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing .amount-name-price .product-amount {
+    color: #615C5E;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing .amount-name-price .product-name {
+    color: #2C2528;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: "Gill sans nova", sans-serif;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .naming-and-pricing .amount-name-price .product-price {
+    color: #6A5B5C;
+    margin-top: 6px;
+    font-weight: 600;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 17px;
+}
+
+.page-layout .left-page-layout .wrapper .product-bar-one .product-catelog .product-space .product-wrapper .buy-and-review {
+    align-self: end;
+    padding-bottom: 10px;
+}
+
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog {
+    margin-top: 55px;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog .upper-blog {
+    display: flex;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog .lower-blog {
+    display: flex;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog       .left-blog {
+    margin: 15px 15px 15px 0;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog             img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.page-layout .left-page-layout .wrapper                .css-for-center {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog             .css-for-center .blog-catalog {
+    background-color: #ECE2D1;
+    padding: 5%;
+    opacity: 0.9;
+}
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog a {
+    display: block;
+    transition-duration: 5s;
+    transition-property: background, transform;
+    transition-timing-function: ease;
+}
+
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog a:hover {
+    transform: scale(1.2);
+}
+
+
+
+.page-layout .left-page-layout .wrapper .blog-gallery-blog       .right-blog {
+    width: 30%;
+    margin: 15px 0px 15px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hidden-element-margin {
+    margin-top: 40%;
+}
+
+.product-category-two {
+    display: flex;
+}
+
+.product-category-two-equal-width {
+    width: 20%;
+    margin: 2%;
+}
+
+.product-category-two-equal-width a {
+    text-decoration: none;
+}
+
+.product-category-two-equal-width a img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-category-two-naming{
+    margin-top: 8%;
+    color: #2c2528;
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 14px;
+}
+
+.product-video{
+    position: relative;
+}
+
+.product-video video {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.upper-artical {
+    color: #fff;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.lower-artical {
+    color: #fff;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 20px;
+    line-height: 79px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5C8018;
+    padding: 3%;
+    font-family: "Gill sans nova",sans-serif;
+    transition-duration: 0.3s;
+    transition-property: background;
+}
+
+.btn:hover {
+    background-color: #839E4F;
+}
+
+.gift-card-section {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.gift-card-section .left-section {
+    width: 47%;
+}
+
+.gift-card-section .right-section {
+    width: 53%;
+}
+
+.gift-card-section .left-section img {
+    width: 100%;
+}
+
+.gift-card-wrapper {
+    margin-left: 11%;
+}
+
+.gift-card a {
+    color: #2C2528;
+    text-decoration: none;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 26px;
+}
+
+.gift-card a:hover {
+    color:#5C8018;
+}
+
+.gift-card-amount {
+    text-decoration: none;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 21px;
+    color: #6A5B5C;
+    margin-top: 8px;
+}
+
+.gift-card-delivery-instruction {
+    font-size: 14px;
+    font-family: "Gill sans nova", sans-serif;
+    color: #7D797B;
+    line-height: 22px;
+}
+
+.gift-card-detail {
+    margin-top: 15px;
+}
+
+.gift-card-detail a {
+    color: #638522;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: 1px solid #ADBF8B;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+}
+
+.gift-card-detail a:hover {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.product-amount {
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.cart-or-buy {
+    display: flex;
+    width: 100%;
+    margin-top: 33px;
+    justify-content: space-between;
+}
+
+.add-to-cart {
+    width: 48%;
+    text-align: center;
+}
+
+.add-to-cart button {
+    text-decoration: none;
+    font-family: "Gill sans nova", sans-serif;
+    display: block;
+    color: #fff;
+    padding: 7%;
+    font-size: 14px;
+    margin-right: 3%;
+    background-color: #7BAB20;
+    transition-duration: 0.1s;
+    transition-property: background;
+    width: 100%;
+    border: 1px solid #7BAB20;
+    
+}
+
+.add-to-cart button:hover {
+    background-color: #F4F1E9;
+    color: #7BAB20;
+    
+}
+
+.buy-it-now {
+    width: 48%;
+    text-align: center;
+}
+
+.buy-it-now button {
+    text-decoration: none;
+    font-family: "Gill sans nova", sans-serif;
+    background-color: #5C8018;
+    color: #fff;
+    font-size: 14px;
+    padding: 7%;
+    display: block;
+    margin-left: 3%;
+    transition-duration: 0.3s;
+    transition-property: background;
+    width: 100%;
+    border: none;
+    
+}
+
+.buy-it-now button:hover {
+    background-color: #839E4F;
+}
+
+.gift-cart-and-amount {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E5E2D4;
+}
+
+.gift-card-delivery-and-detail {
+    padding-top: 30px;
+}
+
+.item-price label {
+    display: block;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.item-price select {
+    border: 1px solid #E5E2D4;
+    padding: 9px 97px 9px 7px;
+    border-radius: 0;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 15px;
+    color: #2C2528;
+    margin-top: 7px;
+}
+
+.product-article-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.product-article-section .product-article {
+    width: 48%;
+}
+
+.product-article-section .product-article h2 {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+}
+
+.product-article-section .product-article p {
+    font-family: "Gill sans nova",sans-serif;
+    font-size: 13px;
+    color: #6A5B5C;
+    word-spacing: 1px;
+    line-height: 23px;
+}
+
+.product-article-section .product-article a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5C8018;
+    padding: 3% 7%;
+    font-family: "Gill sans nova",sans-serif;
+    transition-duration: 0.3s;
+    transition-property: background;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.product-article-section .product-article a:hover {
+    background-color: #839E4F;
+}
+
+.product-article-section .article-image {
+    width: 48%;
+}
+
+.product-article-section .article-image img {
+    width: 100%;
+}
+
+.catalog-for-subscribe {
+    width: 100%;
+    text-align: center;
+    background-color: #F4F2E9;
+    padding: 6%;
+    margin-top: 50px;
+    
+}
+
+.catalog-for-subscribe .heading {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 23px;
+}
+
+.catalog-for-subscribe p {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+    padding: 2% 0 2% 0;
+}
+
+.catalog-for-subscribe .for-subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+
+.catalog-for-subscribe .for-subscribe .email input{
+    padding: 13px;
+    width: 328px;
+}
+
+
+.catalog-for-subscribe .for-subscribe .subscribe-button button {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0;
+    width: 111px;
+    border: none;
+    background-color: #5C8018;
+    padding: 15px;
+    transition-duration: 0.3s;
+    transition-property: background;
+    display: inline-block;
+    text-transform: capitalize;
+    appearance: none;
+    font-family: "Gill sans nova",sans-serif;
+}
+
+.catalog-for-subscribe .for-subscribe .subscribe-button button:hover {
+    background-color: #839E4F;
+}
+
+.blog-section {
+    margin-top: 65px;
+    width: 100%;
+}
+
+.blog-section .blog-image {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.blog-section .blog-image .image {
+    width: 30%;
+    overflow: hidden;
+}
+
+.blog-section .blog-image .image a{
+    display: inline-block;
+}
+
+.blog-section .blog-image img {
+    width: 100%;
+}
+
+.blog-section .blog-image a:hover{
+    transform: scale(1.2);
+}
+
+.blog-section .blog-image a {
+    transition-duration: 9s;
+    transition-property: background, transform;
+    transition-timing-function: ease;
+}
+
+.blog-image .heading {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 23px;
+    padding: 15px 0 15px 0;
+}
+
+.blog-image p {
+    font-family: "Gill sans nova",sans-serif;
+    font-size: 13px;
+    color: #6A5B5C;
+    word-spacing: 1px;
+    line-height: 23px;
+}
+
+.blog-image .read-more a{
+    color: #638522;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: 1px solid #ADBF8B;
+}
+
+.blog-image .read-more a:hover {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+
+
+.footer-information {
+    background-color: #F4F2E9;
+    margin-top: 8%;
+}
+
+
+.footer-information .bottom-wrapper {
+    margin: 0 auto;
+    width: 88%;
+    text-align: center;
+}
+
+.footer-information .bottom-wrapper .go-to-top-page {
+    padding: 20px 0 20px 0;
+}
+
+.footer-information .bottom-wrapper .go-to-top-page a{
+    text-decoration: none;
+}
+
+.catalog-for-subscribe-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+
+.catalog-for-subscribe-bottom .for-subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+
+.catalog-for-subscribe-bottom .for-subscribe .email input{
+    padding: 13px;
+    width: 275px;
+}
+
+
+.catalog-for-subscribe-bottom .for-subscribe .subscribe-button button {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0;
+    width: 111px;
+    border: none;
+    background-color: #5C8018;
+    padding: 15px;
+    transition-duration: 0.3s;
+    transition-property: background;
+    display: inline-block;
+    text-transform: capitalize;
+    appearance: none;
+    font-family: "Gill sans nova",sans-serif;
+}
+
+.catalog-for-subscribe-bottom .for-subscribe .subscribe-button button:hover {
+    background-color: #839E4F;
+}
+
+.catalog-detail-pages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.catalog-detail-pages .page-logo {
+    width: 10%;
+}
+
+.catalog-detail-pages .read-details {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.catalog-detail-pages .read-details .section-link {
+    width: 33.33%;
+    line-height: 25px;
+}
+
+.catalog-detail-pages .read-details .section-link a {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+    padding: 2% 0 2% 0;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.catalog-detail-pages .read-details .section-link a:hover {
+    border-bottom: 1px solid #6A5B5C;
+}
+
+.catalog-detail-pages .page-logo img {
+    width: 100%;
+}
+
+.footer-information .bottom-wrapper .copyright-and-payment-article {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 60px 0;
+    width: 100%;
+}
+
+.footer-information .bottom-wrapper .go-to-top-page a {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-information .bottom-wrapper .go-to-top-page a span svg {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-information .bottom-wrapper .copyright-and-payment-article .copyright {
+    width: 20%;
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-size: 13px;
+    padding: 2% 0 2% 0;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer-information .bottom-wrapper .copyright-and-payment-article .payment-catagory {
+    width: 80%;
+    text-align: right;
+}
+
+.footer-information .bottom-wrapper .copyright-and-payment-article .payment-catagory span svg {
+    width: 45px;
+    height: 31px;
+}
+
+
+
+
+
+.page-layout .right-page-layout {
+    width: 26%;
+    border-left: 1px solid #E5E2D4;
+}
+
+.page-layout .right-page-layout .right-page-wrapper {
+    right: 10px;
+    width: 25.5%;
+    height: 100%;
+    position: fixed;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart {
+    text-align: center;
+    padding: 6% 8% 5% 6%;
+    border-bottom: 1px solid #E5E2D4;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .top-section .left {
+    color: #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .top-section .right a{
+    color: #6A5B5C;
+    border-bottom: 1px solid #6A5B5C;
+    font-family: "Gill sans nova", sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .top-section .right a:hover {
+    border-bottom: 1px solid #839E4F;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .middle-section {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .middle-section .left {
+    text-transform: capitalize;
+    font-family: "Gill sans nova", sans-serif;
+    color: #6A5B5C;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .middle-section .right {
+    color: #6A5B5C;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Gill sans nova", sans-serif;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .down-section {
+    margin-top: 25px;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .down-section button{
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: #5C8018;
+    width: 100%;
+    border-radius: 0;
+    appearance: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+    padding: 14px 0 14px 0;
+    font-family: "Gill sans nova",sans-serif;
+    transition-duration: 0.2s;
+    transition-property: background;
+}
+
+.page-layout .right-page-layout .right-page-wrapper .your-cart .down-section button:hover {
+    background-color: #839E4F;
+}
+
+
+.page-layout .right-page-layout .right-page-wrapper .product {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.right-page-layout .right-page-wrapper .product .product-wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .line-items {
+    display: flex;
+    margin-top: 10%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-name {
+    text-transform: capitalize;
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 13px;
+    color: #2C2528;
+}
+
+
+.right-page-layout .right-page-wrapper .product .product-list .product-price {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 13px;
+    color: #6A5B5C;
+    margin-top: 6px;
+    
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-remove button {
+    font-family: "Gill Sans Nova", sans-serif;
+    font-size: 13px;
+    color: #6A5B5C;
+    margin-top: 6px;
+    text-transform: lowercase;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-img {
+    margin-right: 10px;
+    width: 20%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-detail {
+    width: 50%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-count {
+    width: 30%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .line-items input {
+    width: 100%;
+}
+
+.right-page-layout .right-page-wrapper .product .product-list .product-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-overlay {
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.slide-overlay .up {
+    color: white;
+    font-size: 55px;
+    font-family: "Gill Sans nova", sans-serif;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.slide-overlay .middle {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Gill Sans nova", sans-serif;
+    font-weight: 600px;
+    margin-top: 30px;
+}
+
+.slide-overlay .down button {
+    border: none;
+    cursor: pointer;
+    background-color: #5C8018;
+    border-radius: 0;
+    appearance: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+    padding: 18px 37px;
+    font-family: "Gill sans nova",sans-serif;
+    transition-duration: 0.2s;
+    transition-property: background;
+    margin-top: 27px;
+}
+
+.slide-overlay .down button:hover {
+    background-color: #839E4F;
+}
+
+.groceries-trolly {
+    background-color: rgb(229 226 212);
+    position: absolute;
+    z-index: 0;
+    width: 62%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms;
+    transition-property: transform;
+}
+
+.groceries-trolly .row {
+    display: flex;
+    width: 100%;
+}
+
+.groceries-trolly .row .column {
+    width: 20%;
+    padding: 3%;
+}
+
+.groceries-trolly .row .content {
+    color: rgb(106 91 92);
+    font-family: "Gill sans nova",sans-serif;
+    padding: 3%;
+    margin-top: 8%;
+    font-size: 15px;
+}
+
+.groceries-trolly .row .See-All {
+    color: rgb(106 91 92);
+    font-family: "Gill sans nova",sans-serif;
+    margin-top: 8%;
+    font-size: 15px
+}
+
+
+
+
+
+
+
+
+
+
